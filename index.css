@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family:Roboto ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background: linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+}
+
+
+.heading{
+    padding: 10px 0px;
+    color:rgb(236, 232, 232);
+    text-align: center;
+}
+.sortable-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.sortable-table{
+    border-radius:75% 14% 49% 66% / 24% 0% 16% 20% ;    height: 400px;
+    width: 350px;
+    height: 380px;
+    padding: 70px 25px 20px 25px;
+    background-color: rgb(240, 237, 237);
+}
+.sortable-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.user-row p{
+    font-size: 14px;
+
+}
+.user-details{
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.user-details img{
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-row{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
