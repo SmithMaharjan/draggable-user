@@ -34,7 +34,6 @@ body,html{
 }
 .user-row p{
     font-size: 14px;
-
 }
 .user-details{
     cursor: pointer;
@@ -44,7 +43,6 @@ body,html{
     display: flex;
     list-style: none;
     align-items: center;
-
     justify-content: space-between;
     transition: opacity 0.3s; /* Smooth transition */
 
