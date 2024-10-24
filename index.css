@@ -37,6 +37,7 @@ body,html{
 
 }
 .user-details{
+    cursor: pointer;
     border: 1px solid rgb(194, 191, 191);
     border-radius: 6px;
     padding: 10px;
@@ -45,6 +46,8 @@ body,html{
     align-items: center;
 
     justify-content: space-between;
+    transition: opacity 0.3s; /* Smooth transition */
+
 }
 
 .user-details img{
@@ -57,4 +60,7 @@ body,html{
     display: flex;
     align-items: center;
     gap: 4px;
+}
+.dragging{
+    opacity: 0;
 }
